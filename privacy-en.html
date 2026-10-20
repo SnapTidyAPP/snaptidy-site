@@ -24,7 +24,7 @@
       <article class="legal-card">
         <p class="eyebrow">Privacy Policy</p>
         <h1>Privacy Policy</h1>
-        <p class="legal-meta">Effective date: August 30, 2026<br />Contact: snaptidyapp@outlook.com</p>
+        <p class="legal-meta">Effective date: October 21, 2026<br />Contact: snaptidyapp@outlook.com</p>
 
         <h2>Core Principle</h2>
         <p>SnapTidy is a privacy-first, on-device photo library organizer. Photos, videos, recognized text, AI analysis results, organization preferences, task progress, and Widget state are processed on your device and are not transmitted to SnapTidy servers. We do not operate an account system, serve ads, use third-party analytics or tracking SDKs, or sell personal data.</p>
@@ -32,6 +32,7 @@
         <h2>Information Read on Device</h2>
         <ul>
           <li>Photo metadata such as creation date, file size, media type, and system photo identifiers, used to create daily sets and show progress.</li>
+          <li>Photo location: the location saved in a photo is turned into a city name on your device, to group photos by trip and city. This uses a city table built into the app; no online map or location service is called, and nothing is uploaded.</li>
           <li>Photo content loaded by iOS only for preview, swiping, offline preload, or Widget display.</li>
           <li>Photo permission status, used to determine whether SnapTidy can show photos, write favorites, or start iOS delete confirmation.</li>
         </ul>
@@ -66,11 +67,20 @@
         <h2>iCloud</h2>
         <p>If your photos are stored in iCloud, SnapTidy may use iOS system APIs to download photos or thumbnails from your own iCloud for display or offline preload. Apple handles that process. SnapTidy does not access your Apple ID or iCloud credentials.</p>
 
+        <h2>Album Sorting</h2>
+        <ul>
+          <li>SnapTidy groups recent photos into trips, busy days and months by time and place, then uses Apple Vision on your device to recognize what is in them and sort them into a few albums.</li>
+          <li>On devices with Apple Intelligence, re-sorting into your albums may use Apple's on-device foundation model. The analysis stays on your device and is never sent to us or any third party.</li>
+          <li>Groupings, the album names you edit and photo labels are stored on your device only, so the next sort is faster.</li>
+          <li>Albums or folders are created in iOS Photos only after you tap Save as album. Photos themselves are never moved, copied or changed.</li>
+        </ul>
+
         <h2>Subscriptions and Purchases</h2>
         <ul>
           <li>Pro subscriptions and purchases are processed by the Apple App Store and StoreKit. SnapTidy does not receive or store payment-card details or billing addresses.</li>
           <li>To unlock Pro features and restore purchases, the App reads product information, verified transaction results, and current entitlement status supplied by Apple.</li>
           <li>Apple’s system services provide subscription management, cancellation, and refunds.</li>
+          <li>The Lifetime Pass is a one-time purchase, also processed by Apple; the app only reads the purchase result to unlock Pro.</li>
         </ul>
 
         <h2>Third Parties</h2>
